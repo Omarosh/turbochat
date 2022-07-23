@@ -19,7 +19,6 @@
   .msg-form {
     width: 100%;
     height: 56px;
-    padding: 10px;
   }
   
   #single_room {
@@ -30,38 +29,62 @@
     height: calc(100vh - 150px);
     overflow-x: hidden;
     overflow-y: scroll;
+    /* padding: 31px; */
   }
   
   #room_container {
     height: 100vh;
     margin-right: 0px !important;
   }
-  
+  .navbar{
+    box-shadow: 10px 11px 10px !important;
+
+  }
   #side_panel {
     height: 100vh;
     margin-right: 0px !important;
     overflow-x: hidden;
     overflow-y: scroll;
+    border-right: 16px solid aliceblue;
     margin-bottom: 55px;
   }
+
   #chatroom_container {
     height: 100vh;
     margin-right: 0px !important;
     overflow-x: hidden;
     overflow-y: hidden;
   }
-  
+  #Users-chat{
+    height: 54px;
+    /* background-color: darkgray; */
+    width: 100%;
+    text-align: inherit;
+    font-size: 26px;
+    padding: 5px;
+  }
+  #Users-chat a{
+    color: aliceblue;
+
+  }
+
+.cont :hover{
+    background-color: #c9c9c9;
+    text-decoration: none;
+    
+  }
   .msg-content {
     width: 80%;
     margin-right: 5px;
+    
   }
   .message-box {
     word-wrap: break-word;
     width: fit-content;
-    max-width: 40%;
-    padding: 5px;
+    max-width: 50%;
     border-radius: 10px;
     margin-bottom: 10px;
     background-color: #555555;
     padding: 10px;
+    
   }
