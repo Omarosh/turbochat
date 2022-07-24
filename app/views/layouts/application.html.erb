@@ -10,11 +10,11 @@
     <%= javascript_importmap_tags %>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <style>
-      <%= ".msg-#{current_user&.id}" %> {
+      <%= ".msg-#{@user2&.id}" %> {
       background-color: #007bff !important;
       padding: 10px;
       }
-      <%= ".cont-#{current_user&.id}" %> {
+      <%= ".cont-#{@user1&.id}" %> {
       display: flex;
         justify-content: flex-end
       }
